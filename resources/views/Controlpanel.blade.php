@@ -126,8 +126,8 @@
 
                                         {{csrf_field()}}
                                         <label class="card-text">Move Name</label>
-                                        <input type="text" name="{{$taramas->id}}" value="{{$taramas->id}}">
-                                        <input type="text" name="{{$taramas->status}}" value="{{$taramas->status}}">
+                                        <input type="text" name="id" value="{{$taramas->id}}">
+                                        <input type="text" name="status" value="{{$taramas->status}}">
                                         <input class="form-control card-body" type="text" name="name" value="{{$taramas->name}}">
                                     </div>
 
